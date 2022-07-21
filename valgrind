@@ -1,0 +1,2 @@
+execute: lets-talk.o
+	valgrind --leak-check=full --show-leak-kinds=all -v ./lets-talk.o 6651 127.0.0.1 6652
